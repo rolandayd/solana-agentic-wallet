@@ -1,0 +1,15 @@
+# NEVER commit these — private keys and secrets
+.env
+keystore/
+keystore-test/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
